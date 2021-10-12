@@ -33,7 +33,6 @@ class Student:
             return None
 
 
-
 # Класс Mentor статл родительским классом. От него реализовано наследование классов Lecturer и Reviewer. - Задание 1.
 class Mentor:
     def __init__(self, name, surname):
