@@ -57,7 +57,6 @@ class Lecturer(Mentor):
             return None
 
 
-
 class Reviewer(Mentor):
     def __init__(self, name, surname):
         super().__init__(name, surname)
@@ -179,3 +178,4 @@ print(average_course_grade(student_list, 'Git'))
 
 print('Подсчета средней оценки лекторов по всем курсам: ')
 print(average_lecturers_grade(lecturer_list))
+
